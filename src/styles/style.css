@@ -110,13 +110,8 @@
 }
 
 .flip-card-back {
-  background: linear-gradient
-    (
-      171deg,
-      rgba(57, 187, 157, 1) 28%,
-      rgba(67, 222, 186, 0.969625350140056) 71%,
-      rgba(136, 227, 206, 1) 100%
-    );
+  background: rgb(93,237,210);
+  background: radial-gradient(circle, rgba(93,237,210,1) 2%, rgba(76,247,255,1) 7%, rgba(80,76,255,1) 100%);
   background-size: 100%;
   border-radius: 50%;
   color: rgb(0, 0, 0);
